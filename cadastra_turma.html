@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="src/img/diario.ico" sizes="16x16" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="src/css/estilos.css">
+    <title>SGCD</title>
+    <!--Sistema para cadastramento de conteudo mensal-->
+</head>
+
+<body>
+    <!--Header da pagina -->
+    <div class="header">
+        <h1>SISTEMA DE GERENCIAMENTO DE CONTEÚDOS DISCIPLINARES</h1>
+    </div>
+
+    <h2 class="pgtitle">CADASTRO DE TURMAS</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+
+                <form action="recupera-turma.php">
+
+                    <div class="form-group row">
+                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Selecione o ano letivo</label>
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Escolha...</option>
+                            <option value="primeirociclo">2021</option>
+                            <option value="segundociclo">2022</option>
+                            <option value="terceirociclo">2023</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Selecione o ciclo</label>
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Escolha...</option>
+                            <option value="primeirociclo">1º</option>
+                            <option value="segundociclo">2º</option>
+                            <option value="terceirociclo">3º</option>
+                        </select>
+                    </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="form-group row">
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Selecione o ano do ciclo</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>Escolha...</option>
+                        <option value="primeiro">1º</option>
+                        <option value="segundo">2º</option>
+                        <option value="terceiro">3º</option>
+                        <option value="quarto">4º</option>
+                        <option value="quinto">5º</option>
+                        <option value="sexto">6º</option>
+                        <option value="setimo">7º</option>
+                        <option value="oitavo">8º</option>
+                        <option value="nono">9º</option>
+                    </select>
+                </div>
+
+                <div class="form-group row">
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Selecione a sala</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>Escolha...</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="turma">Cadastre a turma:</label>
+                    <input type="turma" class="form-control" id="turma" aria-describedby="emailHelp"
+                        placeholder="Cadastre a turma">
+
+                </div>
+
+            </div>
+
+            </form>
+        </div>
+        <div>
+            <a class="btn btn-primary" href="#" role="button">Pesquisar</a>
+            <a class="btn btn-primary" href="#" role="button">Gravar</a>
+            <a class="btn btn-primary" href="#" role="button">Limpar</a>
+            <a class="btn btn-primary" href="escolha.html" role="button">Voltar</a>
+        </div>
+
+    </div>
+    </div>
+    <div class="rodape">
+        <p>Copyright @ FBN 2021
+    </div>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
+  .btn {
+    background-color: green;
+    margin-top: 10px;
+
+   }
+
+/* .nav{
+
+background-color: green;
+
+} */
+.p_titulo {
+    margin: 8px 0;
+    color: #8B8A8A;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    background-color: whitesmoke;
+    /* padding: 30px; */
+}
+.header{
+    text-align: center;
+    font-family: raleway, sans-serif;
+    font-size: 15px;
+    color: green;
+
+}
+ .container{
+    background-color: #ccc;
+    padding: 30px;
+  }
+
+  .rodape{
+    max-width: 400px;
+    max-height: 200px;
+    position: fixed;
+    bottom: 10px;
+    right: 400px;
+  }
+ div.header {
+    border-radius: 5px;
+    background-color: rgb(226, 224, 224);
+    padding: 20px;
+  }
+
+  div.container{
+    background-color: whitesmoke;
+  }
+
+  div.selecao{
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+  .form{
+    display:  inline-block;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    text-align: center;   
+
+  }
+  a{
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .saudacao{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .pgtitle{
+    color: green;
+    text-align: center;
+    padding: 30px;
+  }
+
+
+
+  /* Dispositivos muito pequenos (celular, 600px e menor) */
+  @media only screen and (max-width: 600px) {
+    .texto {
+
+      font-size: 8px;
+
+    }
+  }
+
+
+
+
+
+
+ 
